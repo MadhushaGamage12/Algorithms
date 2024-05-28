@@ -1,6 +1,6 @@
 public class selectionSort{
 	public static void main(String[] args){
-		int array[] = {104,25,88,52,11};
+		int array[] = {104,25,88,52,11,7};
 		int length = array.length;
 
 		System.out.println("UnSorted Array: ");
