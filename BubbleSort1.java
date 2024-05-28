@@ -14,7 +14,7 @@ public class BubbleSort1 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {14, 24, 34, 52, 42, 81, 10};
+        int[] arr = {104,25,88,52,11,7};
         bubbleSort(arr);
         System.out.println("Sorted array :");
         for (int num : arr) {
