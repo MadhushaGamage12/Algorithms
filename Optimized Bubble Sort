@@ -1,0 +1,38 @@
+package sortingMethods;
+public class optimizedBubbleSort {
+		    public static void bubbleSort(int[] arr) {
+	        int n = array.length;
+	        boolean swapped;
+	        for (int i = 0; i < n - 1; i++) {
+	            swapped = false;
+	            for (int j = 0; j < n - i - 1; j++) {
+	                if (array[j] > array[j + 1]) {
+	                    int temp = arr[j];
+	                    array[j] = array[j + 1];
+	                    array[j + 1] = temp;
+	                    swapped = true;
+	                }
+	            }
+	            // If no swapping was done in the inner loop, the array is already sorted
+	            if (!swapped) {
+	                break;
+	            }
+	        }
+	    }
+
+	    public static void main(String[] args) {
+	        int[] array = {104, 25, 88, 52, 11, 7};
+	        bubbleSort(array);
+	        System.out.println("Sorted array:");
+	        for (int num : array) {
+	            System.out.print(num + " ");
+	        }
+	        System.out.println();
+	    }
+	
+}
+		
+		    	
+	
+
+
